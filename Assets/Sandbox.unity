@@ -129,7 +129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &148003375
 Transform:
   m_ObjectHideFlags: 0
@@ -2717,11 +2717,7 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 995867516}
     m_ColliderPaths:
-    - - X: -90000000
-        Y: -50000000
-      - X: 90000000
-        Y: -50000000
-      - X: 90000000
+    - - X: 90000000
         Y: -40000000
       - X: 70000000
         Y: -40000000
@@ -2757,6 +2753,10 @@ CompositeCollider2D:
         Y: -40000000
       - X: -90000000
         Y: -40000000
+      - X: -90000000
+        Y: -50000000
+      - X: 90000000
+        Y: -50000000
   m_CompositePaths:
     m_Paths:
     - - {x: 9, y: -4}
@@ -2830,6 +2830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 5
+  jumpSpeed: 5
 --- !u!1 &1728725976
 GameObject:
   m_ObjectHideFlags: 0
