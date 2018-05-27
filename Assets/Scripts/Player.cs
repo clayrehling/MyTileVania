@@ -42,11 +42,20 @@ public class Player : MonoBehaviour {
 
     private void Jump()
     {
-        int layerToCheckForCollision = LayerMask.GetMask("Ground");
-        bool notTouchingGround = (myCollider2D.IsTouchingLayers(layerToCheckForCollision));
-        bool jumpButtonDown = (CrossPlatformInputManager.GetButtonDown("Jump"));
+        // MY ANSWER TO CHALLENGE ******
+        //int layerToCheckForCollision = LayerMask.GetMask("Ground");
+        // bool notTouchingGround = (myCollider2D.IsTouchingLayers(layerToCheckForCollision));
+        // bool jumpButtonDown = (CrossPlatformInputManager.GetButtonDown("Jump"));
 
-        if ( notTouchingGround && jumpButtonDown)
+        //if ( notTouchingGround && jumpButtonDown)
+        //{
+        //    Vector2 jumpVelocityToAdd = new Vector2(0f, jumpSpeed);
+        //    myRigidbody.velocity += jumpVelocityToAdd;
+        //}
+        // *********
+
+        if (!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
+        if ((CrossPlatformInputManager.GetButtonDown("Jump")))
         {
             Vector2 jumpVelocityToAdd = new Vector2(0f, jumpSpeed);
             myRigidbody.velocity += jumpVelocityToAdd;
