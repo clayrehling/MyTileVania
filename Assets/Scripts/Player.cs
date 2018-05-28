@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
@@ -28,8 +29,17 @@ public class Player : MonoBehaviour {
     {
         Run();
         Jump();
+        ClimbLadder();
         FlipSprite();
-    } 
+    }
+
+    private void ClimbLadder()
+    {
+        if (myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ladders")))
+        {
+            print("collided with ladders layer");
+        }
+    }
 
     private void Run()
     {
@@ -42,18 +52,6 @@ public class Player : MonoBehaviour {
 
     private void Jump()
     {
-        // MY ANSWER TO CHALLENGE ******
-        //int layerToCheckForCollision = LayerMask.GetMask("Ground");
-        // bool notTouchingGround = (myCollider2D.IsTouchingLayers(layerToCheckForCollision));
-        // bool jumpButtonDown = (CrossPlatformInputManager.GetButtonDown("Jump"));
-
-        //if ( notTouchingGround && jumpButtonDown)
-        //{
-        //    Vector2 jumpVelocityToAdd = new Vector2(0f, jumpSpeed);
-        //    myRigidbody.velocity += jumpVelocityToAdd;
-        //}
-        // *********
-
         if (!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
         if ((CrossPlatformInputManager.GetButtonDown("Jump")))
         {
