@@ -39,9 +39,8 @@ public class Player : MonoBehaviour {
     {
         if (myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ladders")))
         {
-            print("collided with ladders layer");
+            // print("collided with ladders layer");
             float climbThrow = CrossPlatformInputManager.GetAxis("Vertical");
-
             Vector2 playerVelocity = new Vector2(myRigidbody.velocity.x, climbThrow * climbSpeed);
             myRigidbody.velocity = playerVelocity;
             bool playerHasVerticalSpeed = Mathf.Abs(myRigidbody.velocity.y) > Mathf.Epsilon;
@@ -53,7 +52,6 @@ public class Player : MonoBehaviour {
     {
         // Let's see if this is needed: (can you run off the ladder?
         // if (!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
-
 
         float controlThrow = CrossPlatformInputManager.GetAxis("Horizontal"); // from -1 to +1
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidbody.velocity.y);
