@@ -38,22 +38,7 @@ public class Player : MonoBehaviour
         FlipSprite();
     }
 
-    private void ClimbLadder()
-    {
-        if (!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ladders")))
-        {
-            myRigidbody2D.gravityScale = gravityScaleAtStart;
-            myAnimator.SetBool("Climbing", false);
-            return;
-        }
-        print("collided with ladders layer");
-        float climbThrow = CrossPlatformInputManager.GetAxis("Vertical");
-        Vector2 playerVelocity = new Vector2(myRigidbody2D.velocity.x, climbThrow * climbSpeed);
-        myRigidbody2D.velocity = playerVelocity;
-        myRigidbody2D.gravityScale = 0f;
-        bool playerHasVerticalSpeed = Mathf.Abs(myRigidbody2D.velocity.y) > Mathf.Epsilon;
-        myAnimator.SetBool("Climbing", playerHasVerticalSpeed);
-    }
+
 
     private void Run()
     {
@@ -77,6 +62,22 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void ClimbLadder()
+    {
+        if (!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ladders")))
+        {
+            myRigidbody2D.gravityScale = gravityScaleAtStart;
+            myAnimator.SetBool("Climbing", false);
+            return;
+        }
+        print("collided with ladders layer");
+        float climbThrow = CrossPlatformInputManager.GetAxis("Vertical");
+        Vector2 playerVelocity = new Vector2(myRigidbody2D.velocity.x, climbThrow * climbSpeed);
+        myRigidbody2D.velocity = playerVelocity;
+        myRigidbody2D.gravityScale = 0f;
+        bool playerHasVerticalSpeed = Mathf.Abs(myRigidbody2D.velocity.y) > Mathf.Epsilon;
+        myAnimator.SetBool("Climbing", playerHasVerticalSpeed);
+    }
     private void FlipSprite()
     {
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody2D.velocity.x) > Mathf.Epsilon;
