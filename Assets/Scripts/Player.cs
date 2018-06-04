@@ -38,16 +38,13 @@ public class Player : MonoBehaviour
         FlipSprite();
     }
 
-
-
     private void Run()
     {
-        // Let's see if this is needed: (can you run off the ladder?
-        // if (!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
-
         float controlThrow = CrossPlatformInputManager.GetAxis("Horizontal"); // from -1 to +1
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidbody2D.velocity.y);
         myRigidbody2D.velocity = playerVelocity;
+        print(playerVelocity);
+
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody2D.velocity.x) > Mathf.Epsilon;
         myAnimator.SetBool("Running", playerHasHorizontalSpeed);
     }
