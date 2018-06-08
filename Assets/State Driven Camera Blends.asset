@@ -27,3 +27,8 @@ MonoBehaviour:
     m_Blend:
       m_Style: 6
       m_Time: 1
+  - m_From: Virtual Camera Climbing
+    m_To: '**ANY CAMERA**'
+    m_Blend:
+      m_Style: 6
+      m_Time: 2
