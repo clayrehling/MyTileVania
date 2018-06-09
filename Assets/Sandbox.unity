@@ -51077,12 +51077,12 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 7
+  m_Priority: 0
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 453582389}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 8.22
+    OrthographicSize: 6
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -51229,7 +51229,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 0
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 453582389}
   m_Lens:
@@ -51513,20 +51513,20 @@ MonoBehaviour:
   m_Instructions:
   - m_FullHash: 1432961145
     m_VirtualCamera: {fileID: 1610092591}
-    m_ActivateAfter: 0
-    m_MinDuration: 0
+    m_ActivateAfter: 0.2
+    m_MinDuration: 1
   - m_FullHash: 256545655
     m_VirtualCamera: {fileID: 1512018716}
-    m_ActivateAfter: 0
-    m_MinDuration: 0
+    m_ActivateAfter: 0.2
+    m_MinDuration: 1
   - m_FullHash: -725336713
     m_VirtualCamera: {fileID: 1516024908}
-    m_ActivateAfter: 0
-    m_MinDuration: 0
+    m_ActivateAfter: 0.2
+    m_MinDuration: 1
   m_DefaultBlend:
     m_Style: 1
     m_Time: 0.5
-  m_CustomBlends: {fileID: 11400000, guid: e4c3cd27749cc5c4986d2b8992ae2c0a, type: 2}
+  m_CustomBlends: {fileID: 0}
   m_ParentHash:
   - m_Hash: 1432961145
     m_ParentHash: 756556552
