@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
     private void Run()
     {
         float controlThrow = CrossPlatformInputManager.GetAxis("Horizontal"); // from -1 to +1
-        // print("control throw - horizontal: " + controlThrow);
+        print("control throw - horizontal: " + controlThrow);
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidbody2D.velocity.y);
         myRigidbody2D.velocity = playerVelocity;
         // print(playerVelocity);
@@ -68,7 +68,7 @@ public class Player : MonoBehaviour
             myAnimator.SetBool("Climbing", false);
             return;
         }
-        // print("collided with ladders layer");
+        print("collided with ladders layer");
         float climbThrow = CrossPlatformInputManager.GetAxis("Vertical");
         Vector2 playerVelocity = new Vector2(myRigidbody2D.velocity.x, climbThrow * climbSpeed);
         myRigidbody2D.velocity = playerVelocity;
