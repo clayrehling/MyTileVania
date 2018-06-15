@@ -1,1 +1,7 @@
+6/15/2018 - running without player-driven cameras for now
+- about to re-create them from scratch 
+- might be time to learn how to make a Feature branch!!
+
+
 About to change tile import settings
+
