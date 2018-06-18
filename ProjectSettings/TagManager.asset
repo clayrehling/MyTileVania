@@ -47,6 +47,9 @@ TagManager:
   - name: Ladders
     uniqueID: 2755596735
     locked: 0
+  - name: Enemies
+    uniqueID: 688518975
+    locked: 0
   - name: Player
     uniqueID: 514245583
     locked: 0
