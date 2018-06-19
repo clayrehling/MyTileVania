@@ -10,7 +10,6 @@ public class ClaysCamera : MonoBehaviour {
     Vector3 playerPos;
 
 
-
 	// Use this for initialization
 	void Start () {
         cameraZOffset = new Vector3(0, 0, cameraZDepth);
