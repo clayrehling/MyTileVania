@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] float runSpeed = 5f;
     [SerializeField] float jumpSpeed = 5f;
     [SerializeField] float climbSpeed = 5f;
-
+    
 
     // State
     bool isAlive = true;
@@ -44,7 +44,6 @@ public class Player : MonoBehaviour
         print("control throw - horizontal: " + controlThrow);
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidbody2D.velocity.y);
         myRigidbody2D.velocity = playerVelocity;
-        // print(playerVelocity);
 
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody2D.velocity.x) > Mathf.Epsilon;
         myAnimator.SetBool("Running", playerHasHorizontalSpeed);
@@ -83,6 +82,11 @@ public class Player : MonoBehaviour
         {
             transform.localScale = new Vector2(Mathf.Sign(myRigidbody2D.velocity.x), 1f);
         }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        print("enemy collided with something");
+        print(collision.ToString());
     }
 
 
