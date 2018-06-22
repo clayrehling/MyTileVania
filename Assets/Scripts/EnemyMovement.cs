@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class EnemyMovement : MonoBehaviour {
     Rigidbody2D myRigidbody2D;
@@ -11,8 +13,20 @@ public class EnemyMovement : MonoBehaviour {
 	}
 	
 	void Update () {
-        myRigidbody2D.velocity = new Vector2(moveSpeed, 0);
+        if (IsFacingRight())
+        {
+            myRigidbody2D.velocity = new Vector2(moveSpeed, 0f);
+        }
+        else
+        {
+            myRigidbody2D.velocity = new Vector2(-moveSpeed, 0);
+        }
 	}
+
+    bool IsFacingRight()
+    {
+        return transform.localScale.x > 0;
+    }
 
     private void FlipSprite()
     {
