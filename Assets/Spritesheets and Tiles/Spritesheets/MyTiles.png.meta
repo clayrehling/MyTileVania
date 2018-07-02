@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: ad8c1c71f6389ca47ab5006df9b5629d
-timeCreated: 1527359047
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: MyTiles_0
@@ -40,7 +38,7 @@ TextureImporter:
     21300066: MyTiles_33
     21300068: MyTiles_34
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 5
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -80,18 +78,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 31
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 33
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -101,7 +102,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -111,7 +113,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: WebGL
+  - serializedVersion: 2
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -142,6 +145,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: d74d7d668acf54c43a87e093d7b857ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_1
       rect:
@@ -160,6 +169,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: d413d28e062a08347b1546bb1f8bc2d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_2
       rect:
@@ -178,6 +193,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: fb774cb597e94f84e941cefa36d7f66d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_3
       rect:
@@ -196,6 +217,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 8aa81666338f8e74c892d89e44a733bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_4
       rect:
@@ -214,6 +241,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: c1c84756e74d78c4480e01466ed65836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_5
       rect:
@@ -232,6 +265,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 8c9e87d6eadaa1042a7709666dd2577c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_6
       rect:
@@ -250,6 +289,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: d7b630d4a3ca59343ae7113b6bcbcb22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_7
       rect:
@@ -268,6 +313,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 3698551b7e3156f4991da373522bbfe2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_8
       rect:
@@ -286,6 +337,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 7f60c027aa9f4964da2cec3ac2399ec8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_9
       rect:
@@ -304,6 +361,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 3e7c06f5610cc90498a085571e3851fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_10
       rect:
@@ -322,6 +385,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 21dd2d0ca8e496049a1d3b94645a7417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_11
       rect:
@@ -340,6 +409,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: fdc9544e8fcc4024982d24e3447f58c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_12
       rect:
@@ -358,6 +433,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 690c1026bfe3f5c4f96c89377e5202df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_13
       rect:
@@ -376,6 +457,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 0ebcbcd2f85753246ad37a56cd0c200e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_14
       rect:
@@ -394,6 +481,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 9a0f9a388d624c34b83af6cf2dfa5678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_15
       rect:
@@ -412,6 +505,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 33ed425b8355c054fa767432dd99db98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_16
       rect:
@@ -430,6 +529,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 908584d5d2d058a4cb38821bfd6b1469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_17
       rect:
@@ -448,6 +553,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 027fa026cdda14e48b1f4e9c3aeb7c25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_18
       rect:
@@ -466,6 +577,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: a377508cf5986dc46a213950b58e52cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_19
       rect:
@@ -484,6 +601,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 8b0b8dff927b4f845b8655f19e85f637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_20
       rect:
@@ -502,6 +625,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: c9bdb422ea67c7b479f9799408be09f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_21
       rect:
@@ -520,6 +649,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 44c6bfd50eef6574899dfdb0866a9abc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_22
       rect:
@@ -538,6 +673,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 5c42cc9ea56c0ca4884e04162da1461a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_23
       rect:
@@ -556,6 +697,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 321953c4c2240c54db52577b967f1178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_24
       rect:
@@ -574,6 +721,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: ce9d29a0ec67e304d9a9971fd60d4b65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_25
       rect:
@@ -592,6 +745,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 0dda6751062afc74faebdaa95b583b04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_26
       rect:
@@ -610,6 +769,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 6fc9b5377a093ca46b223f4743f000fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_27
       rect:
@@ -628,6 +793,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 46eb905dd307ba840a40c6a372359445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_28
       rect:
@@ -646,6 +817,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 43cee1d89289eb64ca5fc00f34ea7cf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_29
       rect:
@@ -664,6 +841,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: e5673bfbffd18034ead068b61a6768c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_30
       rect:
@@ -682,6 +865,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 751786ad7150fc64988d43239b2bd30f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_31
       rect:
@@ -700,6 +889,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 22fd92a92a2fc39448a229c31fff9677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_32
       rect:
@@ -718,6 +913,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: f1dba49e29b0e8b4d991dd50f1dc3b6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_33
       rect:
@@ -736,6 +937,12 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 66a37a6831955004fa9fa14d6524ef11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MyTiles_34
       rect:
@@ -754,8 +961,20 @@ TextureImporter:
         - {x: 16, y: -16}
         - {x: 16, y: 16}
       tessellationDetail: 0
+      bones: []
+      spriteID: 40b4639945fdf904289601ba6c75739a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
