@@ -110313,7 +110313,7 @@ Prefab:
     - target: {fileID: 61459523132717398, guid: 58aaa0123dc96bc4a9596ea3c8fa9eac,
         type: 2}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 61459523132717398, guid: 58aaa0123dc96bc4a9596ea3c8fa9eac,
         type: 2}
@@ -120363,6 +120363,16 @@ Prefab:
         type: 2}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114550813475262874, guid: 9e269dc98d8e7c3488400b91aa661e46,
+        type: 2}
+      propertyPath: deathKick.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114550813475262874, guid: 9e269dc98d8e7c3488400b91aa661e46,
+        type: 2}
+      propertyPath: deathKick.y
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9e269dc98d8e7c3488400b91aa661e46, type: 2}
