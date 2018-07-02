@@ -120209,15 +120209,55 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: 170, y: -5, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 171, y: -5, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 172, y: -5, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 173, y: -5, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: ae25b030474ccf74987ecb442b3da2f5, type: 2}
+  - m_RefCount: 4
+    m_Data: {fileID: 11400000, guid: 4e5f32b930657324c92a24c3c7077e67, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 2
     m_Data: {fileID: 21300000, guid: d5421d024dbdf8f4abc4ba406a76a6a7, type: 3}
+  - m_RefCount: 4
+    m_Data: {fileID: 21300056, guid: ad8c1c71f6389ca47ab5006df9b5629d, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 2
+  - m_RefCount: 6
     m_Data:
       e00: 1
       e01: 0
@@ -120236,12 +120276,12 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 2
+  - m_RefCount: 6
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: 0, y: -5, z: 0}
-  m_Size: {x: 164, y: 5, z: 1}
+  m_Size: {x: 174, y: 5, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -120280,6 +120320,14 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 1039278363}
     m_ColliderPaths:
+    - - X: 1740161280
+        Y: -39838708
+      - X: 1699838720
+        Y: -39838708
+      - X: 1699838720
+        Y: -50161292
+      - X: 1740161280
+        Y: -50161292
     - - X: 1628125056
         Y: -44687500
       - X: 1623124992
@@ -120298,6 +120346,10 @@ CompositeCollider2D:
         Y: -50000000
   m_CompositePaths:
     m_Paths:
+    - - {x: 174.01613, y: -3.9838707}
+      - {x: 169.98387, y: -3.9838707}
+      - {x: 169.98387, y: -5.0161295}
+      - {x: 174.01613, y: -5.0161295}
     - - {x: 162.8125, y: -4.46875}
       - {x: 162.3125, y: -4.5}
       - {x: 162.0625, y: -5}
