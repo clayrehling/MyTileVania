@@ -7,12 +7,17 @@ using UnityStandardAssets.CrossPlatformInput;
 public class EnemyMovement : MonoBehaviour {
     Rigidbody2D myRigidbody2D;
     [SerializeField] float moveSpeed = 1f;
+    [SerializeField] Player player;
 
     void Start () {
         myRigidbody2D = GetComponent<Rigidbody2D>();
 	}
 	
 	void Update () {
+        if (!player.isAlive)
+        {
+            moveSpeed = 0;
+        }
         if (IsFacingRight())
         {
             myRigidbody2D.velocity = new Vector2(moveSpeed, 0f);

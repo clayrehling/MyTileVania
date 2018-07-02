@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     
 
     // State
-    bool isAlive = true;
+    public bool isAlive = true;
 
     // Cached component references
     Rigidbody2D myRigidbody2D;
@@ -32,16 +32,25 @@ public class Player : MonoBehaviour
     }
     private void Update()
     {
+        if (!isAlive)
+        {
+            return;
+        }
         Run();
         Jump();
         ClimbLadder();
         FlipSprite();
     }
 
+    private void Die()
+    {
+
+    }
+
     private void Run()
     {
+        
         float controlThrow = CrossPlatformInputManager.GetAxis("Horizontal"); // from -1 to +1
-        print("control throw - horizontal: " + controlThrow);
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidbody2D.velocity.y);
         myRigidbody2D.velocity = playerVelocity;
 
@@ -51,6 +60,7 @@ public class Player : MonoBehaviour
 
     private void Jump()
     {
+        
         if (!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
         if ((CrossPlatformInputManager.GetButtonDown("Jump")))
         {
@@ -67,7 +77,7 @@ public class Player : MonoBehaviour
             myAnimator.SetBool("Climbing", false);
             return;
         }
-        print("collided with ladders layer");
+        // print("collided with ladders layer");
         float climbThrow = CrossPlatformInputManager.GetAxis("Vertical");
         Vector2 playerVelocity = new Vector2(myRigidbody2D.velocity.x, climbThrow * climbSpeed);
         myRigidbody2D.velocity = playerVelocity;
@@ -85,8 +95,13 @@ public class Player : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        print("enemy collided with something");
-        print(collision.ToString());
+        // print("player collided with something");
+        print(collision.gameObject.name);
+        if(collision.gameObject.name == "Enemy")
+        {
+            isAlive = false;
+            myAnimator.SetBool("PlayerDeath", true);
+        }
     }
 
 
