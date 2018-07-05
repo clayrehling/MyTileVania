@@ -19,7 +19,7 @@ TagManager:
   - Player
   - Enemy
   - Hazards
-  - 
+  - Exits
   - 
   - 
   - 
@@ -52,6 +52,9 @@ TagManager:
     locked: 0
   - name: Hazards
     uniqueID: 3894543129
+    locked: 0
+  - name: Exits
+    uniqueID: 1468816241
     locked: 0
   - name: Player
     uniqueID: 514245583

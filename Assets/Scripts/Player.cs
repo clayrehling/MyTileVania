@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
@@ -42,6 +43,16 @@ public class Player : MonoBehaviour
         Jump();
         FlipSprite();
         Die();
+        Exit();
+
+    }
+
+    private void Exit()
+    {
+        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Exits")))
+        {
+            print("Player collided with Exit");
+        }
     }
 
     private void Run()
