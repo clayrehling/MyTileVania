@@ -19,7 +19,7 @@ TagManager:
   - Player
   - Enemy
   - Hazards
-  - Exits
+  - Interactables
   - 
   - 
   - 
@@ -53,12 +53,12 @@ TagManager:
   - name: Hazards
     uniqueID: 3894543129
     locked: 0
-  - name: Exits
-    uniqueID: 1468816241
-    locked: 0
   - name: Player
     uniqueID: 514245583
     locked: 0
   - name: Foreground
     uniqueID: 2317269015
+    locked: 0
+  - name: Interactables
+    uniqueID: 3770556735
     locked: 0
