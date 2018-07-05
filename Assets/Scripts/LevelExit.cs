@@ -5,14 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class LevelExit : MonoBehaviour
 {
-    private void OnTriggerEnter2D()
+    public float levelLoadDelay = 2f;
+    private void OnTriggerEnter2D(Collider2D other)
     {
         // StartCoroutine 
+        StartCoroutine(LoadNextLevel());
     }
 
-    IEnumerator HasAName
+    IEnumerator LoadNextLevel()
     {
-        // yeild with a delay
+        yield return new WaitForSecondsRealtime(levelLoadDelay);
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);
     }

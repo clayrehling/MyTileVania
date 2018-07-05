@@ -34095,6 +34095,52 @@ PolygonCollider2D:
       - {x: -30.363968, y: -6.3276024}
       - {x: 23.044418, y: -6.0762978}
       - {x: 22.775269, y: 26.681675}
+--- !u!1001 &449496062
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4194490079791216, guid: 994f102def2c4b142b7a7a2c63cf5aba, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 219.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4194490079791216, guid: 994f102def2c4b142b7a7a2c63cf5aba, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4194490079791216, guid: 994f102def2c4b142b7a7a2c63cf5aba, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4194490079791216, guid: 994f102def2c4b142b7a7a2c63cf5aba, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4194490079791216, guid: 994f102def2c4b142b7a7a2c63cf5aba, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4194490079791216, guid: 994f102def2c4b142b7a7a2c63cf5aba, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4194490079791216, guid: 994f102def2c4b142b7a7a2c63cf5aba, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4194490079791216, guid: 994f102def2c4b142b7a7a2c63cf5aba, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341701344813688, guid: 994f102def2c4b142b7a7a2c63cf5aba, type: 2}
+      propertyPath: m_Name
+      value: Exit Level (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 994f102def2c4b142b7a7a2c63cf5aba, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &690290498 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1896137686711306, guid: 9e269dc98d8e7c3488400b91aa661e46,
@@ -34356,7 +34402,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1977698281
-  m_SortingLayer: 7
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
