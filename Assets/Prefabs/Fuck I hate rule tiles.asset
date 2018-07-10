@@ -14,7 +14,7 @@ MonoBehaviour:
   m_DefaultSprite: {fileID: 21300018, guid: 18a2697d6019b4c4b81fe80671b96cf1, type: 3}
   m_DefaultColliderType: 1
   m_TilingRules:
-  - m_Neighbors: 0100000001000000010000000100000001000000010000000100000001000000
+  - m_Neighbors: 0200000002000000020000000200000002000000020000000200000002000000
     m_Sprites:
     - {fileID: 21300018, guid: 18a2697d6019b4c4b81fe80671b96cf1, type: 3}
     m_AnimationSpeed: 1
