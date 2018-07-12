@@ -116,9 +116,9 @@ NavMeshSettings:
 --- !u!1 &148003374
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 148003375}
   - component: {fileID: 148003377}
@@ -134,7 +134,7 @@ GameObject:
 --- !u!4 &148003375
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148003374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -147,7 +147,7 @@ Transform:
 --- !u!483693784 &148003376
 TilemapRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148003374}
   m_Enabled: 1
@@ -189,7 +189,7 @@ TilemapRenderer:
 --- !u!1839735485 &148003377
 Tilemap:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148003374}
   m_Enabled: 1
@@ -64563,7 +64563,7 @@ Tilemap:
 --- !u!60 &148003378
 PolygonCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148003374}
   m_Enabled: 1
@@ -64631,26 +64631,31 @@ Prefab:
       propertyPath: m_Name
       value: Exit Level (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114532488103355116, guid: 994f102def2c4b142b7a7a2c63cf5aba,
+        type: 2}
+      propertyPath: levelLoadDelay
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 994f102def2c4b142b7a7a2c63cf5aba, type: 2}
-  m_IsPrefabParent: 0
+  m_SourcePrefab: {fileID: 100100000, guid: 994f102def2c4b142b7a7a2c63cf5aba, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &690290498 stripped
 GameObject:
-  m_PrefabParentObject: {fileID: 1896137686711306, guid: 9e269dc98d8e7c3488400b91aa661e46,
+  m_CorrespondingSourceObject: {fileID: 1896137686711306, guid: 9e269dc98d8e7c3488400b91aa661e46,
     type: 2}
   m_PrefabInternal: {fileID: 1739196426}
 --- !u!114 &690290499 stripped
 MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114550813475262874, guid: 9e269dc98d8e7c3488400b91aa661e46,
+  m_CorrespondingSourceObject: {fileID: 114550813475262874, guid: 9e269dc98d8e7c3488400b91aa661e46,
     type: 2}
   m_PrefabInternal: {fileID: 1739196426}
   m_Script: {fileID: 11500000, guid: 3a6c1c249c00f404fbb3b3a5eb83e678, type: 3}
 --- !u!1 &698862183
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 698862184}
   - component: {fileID: 698862186}
@@ -64668,7 +64673,7 @@ GameObject:
 --- !u!4 &698862184
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 698862183}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -64681,7 +64686,7 @@ Transform:
 --- !u!483693784 &698862185
 TilemapRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 698862183}
   m_Enabled: 1
@@ -64723,7 +64728,7 @@ TilemapRenderer:
 --- !u!1839735485 &698862186
 Tilemap:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 698862183}
   m_Enabled: 1
@@ -64954,7 +64959,7 @@ Tilemap:
 --- !u!66 &698862187
 CompositeCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 698862183}
   m_Enabled: 1
@@ -65205,7 +65210,7 @@ CompositeCollider2D:
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 698862183}
   m_BodyType: 2
@@ -65224,7 +65229,7 @@ Rigidbody2D:
 --- !u!19719996 &698862189
 TilemapCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 698862183}
   m_Enabled: 1
@@ -65279,14 +65284,14 @@ Prefab:
       value: 
       objectReference: {fileID: 690290499}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 58aaa0123dc96bc4a9596ea3c8fa9eac, type: 2}
-  m_IsPrefabParent: 0
+  m_SourcePrefab: {fileID: 100100000, guid: 58aaa0123dc96bc4a9596ea3c8fa9eac, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &995867510
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 995867511}
   - component: {fileID: 995867513}
@@ -65304,7 +65309,7 @@ GameObject:
 --- !u!4 &995867511
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 995867510}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -65317,7 +65322,7 @@ Transform:
 --- !u!483693784 &995867512
 TilemapRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 995867510}
   m_Enabled: 1
@@ -65359,7 +65364,7 @@ TilemapRenderer:
 --- !u!1839735485 &995867513
 Tilemap:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 995867510}
   m_Enabled: 1
@@ -68844,7 +68849,7 @@ Tilemap:
 --- !u!66 &995867514
 CompositeCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 995867510}
   m_Enabled: 1
@@ -69389,7 +69394,7 @@ CompositeCollider2D:
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 995867510}
   m_BodyType: 2
@@ -69408,7 +69413,7 @@ Rigidbody2D:
 --- !u!19719996 &995867516
 TilemapCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 995867510}
   m_Enabled: 1
@@ -69421,9 +69426,9 @@ TilemapCollider2D:
 --- !u!1 &1039278357
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 1039278358}
   - component: {fileID: 1039278360}
@@ -69441,7 +69446,7 @@ GameObject:
 --- !u!4 &1039278358
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1039278357}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -69454,7 +69459,7 @@ Transform:
 --- !u!483693784 &1039278359
 TilemapRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1039278357}
   m_Enabled: 1
@@ -69496,7 +69501,7 @@ TilemapRenderer:
 --- !u!1839735485 &1039278360
 Tilemap:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1039278357}
   m_Enabled: 1
@@ -69560,7 +69565,7 @@ Tilemap:
 --- !u!66 &1039278361
 CompositeCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1039278357}
   m_Enabled: 1
@@ -69583,7 +69588,7 @@ CompositeCollider2D:
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1039278357}
   m_BodyType: 2
@@ -69602,7 +69607,7 @@ Rigidbody2D:
 --- !u!19719996 &1039278363
 TilemapCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1039278357}
   m_Enabled: 1
@@ -69615,9 +69620,9 @@ TilemapCollider2D:
 --- !u!1 &1268792665
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 1268792669}
   - component: {fileID: 1268792668}
@@ -69634,27 +69639,31 @@ GameObject:
 --- !u!81 &1268792666
 AudioListener:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1268792665}
   m_Enabled: 1
 --- !u!124 &1268792667
 Behaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1268792665}
   m_Enabled: 1
 --- !u!20 &1268792668
 Camera:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1268792665}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -69684,7 +69693,7 @@ Camera:
 --- !u!4 &1268792669
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1268792665}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -69697,7 +69706,7 @@ Transform:
 --- !u!114 &1268792670
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1268792665}
   m_Enabled: 1
@@ -69710,9 +69719,9 @@ MonoBehaviour:
 --- !u!1 &1728725976
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 1728725978}
   - component: {fileID: 1728725977}
@@ -69726,7 +69735,7 @@ GameObject:
 --- !u!156049354 &1728725977
 Grid:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1728725976}
   m_Enabled: 1
@@ -69737,7 +69746,7 @@ Grid:
 --- !u!4 &1728725978
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1728725976}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -69791,5 +69800,5 @@ Prefab:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 9e269dc98d8e7c3488400b91aa661e46, type: 2}
-  m_IsPrefabParent: 0
+  m_SourcePrefab: {fileID: 100100000, guid: 9e269dc98d8e7c3488400b91aa661e46, type: 2}
+  m_IsPrefabAsset: 0
