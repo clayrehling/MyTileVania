@@ -2,10 +2,9 @@
   "dependencies": {
     "com.unity.ads": "2.0.8",
     "com.unity.analytics": "2.0.16",
-<<<<<<< Updated upstream
+
     "com.unity.cinemachine": "2.2.0",
-=======
->>>>>>> Stashed changes
+
     "com.unity.package-manager-ui": "1.9.11",
     "com.unity.purchasing": "2.0.3",
     "com.unity.textmeshpro": "1.2.4",
